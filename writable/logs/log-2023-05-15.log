@@ -1,0 +1,2 @@
+ERROR - 2023-05-15 12:59:31 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number

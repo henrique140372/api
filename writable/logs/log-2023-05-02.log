@@ -1,0 +1,170 @@
+CRITICAL - 2023-05-02 00:02:57 --> syntax error, unexpected 'de' (T_STRING), expecting ')'
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/megadri2/aoseugosto.eu.org/system/View/View.php(424): CodeIgniter\View\View->render('admin/users/for...', NULL, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Views/admin/users/edit.php(11): CodeIgniter\View\View->include('admin/users/for...')
+#3 /home/megadri2/aoseugosto.eu.org/system/View/View.php(210): include('/home/megadri2/...')
+#4 /home/megadri2/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('admin/users/edi...', Array, true)
+#6 /home/megadri2/aoseugosto.eu.org/app/Controllers/Admin/Users.php(77): view('admin/users/edi...', Array)
+#7 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Users->edit('32')
+#8 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#9 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-02 00:04:05 --> syntax error, unexpected 'de' (T_STRING), expecting ')'
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/megadri2/aoseugosto.eu.org/system/View/View.php(424): CodeIgniter\View\View->render('admin/users/for...', NULL, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Views/admin/users/edit.php(11): CodeIgniter\View\View->include('admin/users/for...')
+#3 /home/megadri2/aoseugosto.eu.org/system/View/View.php(210): include('/home/megadri2/...')
+#4 /home/megadri2/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('admin/users/edi...', Array, true)
+#6 /home/megadri2/aoseugosto.eu.org/app/Controllers/Admin/Users.php(77): view('admin/users/edi...', Array)
+#7 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Users->edit('32')
+#8 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#9 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-02 00:39:46 --> Invalid file: themes/pirate/user/Dashboard.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:40:13 --> Invalid file: themes/pirate/user/Dashboard.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:42:34 --> Invalid file: themes/pirate/../user/dashboard.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/....')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/....', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/....', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:43:11 --> Invalid file: themes/pirate/.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/....')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:43:30 --> Invalid file: themes/pirate/../.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/....')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/....', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/....', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:43:32 --> Invalid file: themes/pirate/../.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/....')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/....', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/....', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:43:34 --> Invalid file: themes/pirate/../.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/....')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/....', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/....', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:44:12 --> Invalid file: themes/pirate/https://aoseugosto.eu.org/
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/h...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/h...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/h...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:44:15 --> Invalid file: themes/pirate/https://aoseugosto.eu.org/
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/h...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/h...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/h...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:44:40 --> Invalid file: themes/pirate/User/Dashboard.dashboard
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/U...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/U...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/U...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:44:42 --> Invalid file: themes/pirate/User/Dashboard.dashboard
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/U...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/U...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/U...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:44:52 --> Invalid file: themes/pirate/User/Dashboard/dashboard.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/U...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/U...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/U...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:44:56 --> Invalid file: themes/pirate/User/Dashboard/dashboard.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/U...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/U...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/U...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:45:11 --> Invalid file: themes/pirate/User/Dashboard/.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/U...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/U...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/U...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:45:30 --> Invalid file: themes/pirate/User/dashboard.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/U...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/U...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/U...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-02 00:45:32 --> Invalid file: themes/pirate/User/dashboard.php
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/U...')
+#1 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/U...', Array, true)
+#2 /home/megadri2/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/U...', Array)
+#3 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

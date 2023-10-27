@@ -1,0 +1,60 @@
+CRITICAL - 2023-08-27 18:44:27 --> 6 : Could not resolve host: license.vipembed.com
+#0 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resol...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-27 18:44:29 --> 6 : Could not resolve host: license.vipembed.com
+#0 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resol...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-27 19:00:32 --> Return value of get_current_user_id() must be of the type int, null returned
+#0 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(31): get_current_user_id()
+#1 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-27 19:00:35 --> Return value of get_current_user_id() must be of the type int, null returned
+#0 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(31): get_current_user_id()
+#1 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-27 19:32:34 --> Argument 1 passed to App\Models\Translations\GenreTranslationsModel::findByGenreId() must be of the type int, null given, called in /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php on line 76
+#0 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(76): App\Models\Translations\GenreTranslationsModel->findByGenreId(NULL, 'pt-BR')
+#1 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(1456): App\Models\GenreModel->translateLanguage(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(628): CodeIgniter\BaseModel->trigger('afterFind', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(212): CodeIgniter\BaseModel->first()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(241): App\Models\GenreModel->getGenreByName('War')
+#5 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(105): App\Libraries\QuickInserter->getGenresIds(Array)
+#6 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(46): App\Libraries\QuickInserter->saveMovie()
+#7 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(107): App\Libraries\QuickInserter->save()
+#8 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(71): App\Libraries\BulkImport->importMovies()
+#9 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(210): App\Libraries\BulkImport->run()
+#10 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(47): App\Controllers\User\Ajax->importItem('104430')
+#11 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Ajax->get_movie()
+#12 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Ajax))
+#13 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-08-27 20:24:24 --> Return value of get_current_user_id() must be of the type int, null returned
+#0 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(31): get_current_user_id()
+#1 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

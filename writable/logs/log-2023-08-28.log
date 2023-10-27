@@ -1,0 +1,281 @@
+CRITICAL - 2023-08-28 03:05:30 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:06:04 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:06:12 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:06:16 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:07:00 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:07:07 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:07:35 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:07:40 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:08:47 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:08:54 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:08:59 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users/edi...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:09:00 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users/new', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:09:39 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-08-28 03:11:19 --> Table 'nobrefli_vipembed.settings' doesn't exist
+CRITICAL - 2023-08-28 03:11:19 --> Call to a member function getResultArray() on bool
+#0 /home/nobrefli/aoseugosto.eu.org/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Helpers/config_helper.php(8): config('Settings')
+#3 /home/nobrefli/aoseugosto.eu.org/app/Helpers/config_helper.php(65): get_config('embed_slug')
+#4 /home/nobrefli/aoseugosto.eu.org/app/Config/Routes.php(115): embed_slug()
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(711): require('/home/nobrefli/...')
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-28 03:12:28 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:12:31 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:12:44 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:12:47 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:12:49 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:12:51 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:12:59 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:23:08 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminModAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminModAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/user/dash...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:23:15 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminModAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminModAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/user', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:23:18 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminModAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminModAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/user/dash...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:29:33 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:30:23 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:30:26 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:31:34 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:32:40 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users/edi...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:32:43 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:32:46 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users/edi...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:32:47 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:34:12 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:41:43 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:47:55 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 03:47:57 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 10:34:07 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-08-28 06:49:26 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1083')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-28 19:45:13 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

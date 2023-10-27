@@ -1,0 +1,8 @@
+CRITICAL - 2023-07-31 02:22:39 --> Argument 2 passed to CodeIgniter\Cookie\Cookie::__construct() must be of the type string, null given, called in /home/nobrefli/aoseugosto.eu.org/system/HTTP/ResponseTrait.php on line 595
+#0 /home/nobrefli/aoseugosto.eu.org/system/HTTP/ResponseTrait.php(595): CodeIgniter\Cookie\Cookie->__construct('lang', NULL, Array)
+#1 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Language.php(50): CodeIgniter\HTTP\Response->setCookie('lang', NULL, 1721884959)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Language->index()
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Language))
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

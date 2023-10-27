@@ -1,0 +1,84 @@
+CRITICAL - 2023-09-21 00:42:35 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1507-inten\xC3\xA7\xC3\xB5e...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-21 01:31:17 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1258-a-casa-das...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-21 11:10:01 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1287-o-pequeno-...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-21 11:41:16 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1495-bleach-sea...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-21 16:31:17 --> Attempt to read property "poster" on null
+#0 /home/nobrefli/aoseugosto.eu.org/app/Views/themes/pirate/download.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include('/home/nobrefli/...')
+#2 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view()
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 18:08:21 --> Attempt to read property "poster" on null
+#0 /home/nobrefli/aoseugosto.eu.org/app/Views/themes/pirate/download.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include('/home/nobrefli/...')
+#2 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view()
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 19:38:51 --> Attempt to read property "poster" on null
+#0 /home/nobrefli/aoseugosto.eu.org/app/Views/themes/pirate/download.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include('/home/nobrefli/...')
+#2 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view()
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-21 21:54:25 --> Attempt to read property "poster" on null
+#0 /home/nobrefli/aoseugosto.eu.org/app/Views/themes/pirate/download.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include('/home/nobrefli/...')
+#2 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view()
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

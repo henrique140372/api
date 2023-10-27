@@ -1,0 +1,30 @@
+CRITICAL - 2023-09-01 04:14:27 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1237-ao-leste-d...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-01 12:09:53 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1229-amor-al\xC3\xA9m...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-01 12:50:34 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1100-mr-bean-se...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

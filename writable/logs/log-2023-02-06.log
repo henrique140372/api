@@ -1,0 +1,27 @@
+CRITICAL - 2023-02-06 19:32:55 --> Invalid file: adminE/auth/login.php
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminE/auth/log...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(1128): CodeIgniter\View\View->render('adminE/auth/log...', Array, true)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Controllers/Admin/Login.php(53): view('adminE/auth/log...', Array)
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(830): App\Controllers\Admin\Login->index()
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 19:33:10 --> Invalid file: admin/auth/logine.php
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/auth/logi...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(1128): CodeIgniter\View\View->render('admin/auth/logi...', Array, true)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Controllers/Admin/Login.php(53): view('admin/auth/logi...', Array)
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(830): App\Controllers\Admin\Login->index()
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 20:33:37 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(1128): CodeIgniter\View\View->render('admin/auth/logi...', Array, true)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Controllers/Admin/Login.php(53): view('admin/auth/logi...', Array)
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(830): App\Controllers\Admin\Login->index()
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

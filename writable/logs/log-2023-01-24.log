@@ -1,0 +1,30 @@
+ERROR - 2023-01-24 08:06:05 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-01-24 08:06:05 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Settings.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(8): config('Settings')
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(65): get_config('embed_slug')
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Routes.php(115): embed_slug()
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(711): require('/home/vol11_3/e...')
+#8 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-24 08:06:05 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-01-24 08:06:05 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Settings.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(8): config('Settings')
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(65): get_config('embed_slug')
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Routes.php(115): embed_slug()
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(711): require('/home/vol11_3/e...')
+#8 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

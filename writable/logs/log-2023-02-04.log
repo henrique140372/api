@@ -1,0 +1,132 @@
+ERROR - 2023-02-04 22:42:50 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-02-04 22:42:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Settings.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(8): config('Settings')
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(65): get_config('embed_slug')
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Routes.php(115): embed_slug()
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(711): require('/home/vol11_3/e...')
+#8 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-02-04 22:42:50 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-02-04 22:42:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Settings.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(8): config('Settings')
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(65): get_config('embed_slug')
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Routes.php(115): embed_slug()
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(711): require('/home/vol11_3/e...')
+#8 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-02-04 22:42:52 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-02-04 22:42:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Settings.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(8): config('Settings')
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(65): get_config('embed_slug')
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Routes.php(115): embed_slug()
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(711): require('/home/vol11_3/e...')
+#8 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-02-04 22:42:54 --> Error connecting to the database: Connection refused
+CRITICAL - 2023-02-04 22:42:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Settings.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(8): config('Settings')
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Helpers/config_helper.php(65): get_config('embed_slug')
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Config/Routes.php(115): embed_slug()
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(711): require('/home/vol11_3/e...')
+#8 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-04 22:43:39 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminModAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminModAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/dashboard', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-04 22:45:18 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-04 22:45:21 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-04 22:45:28 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-04 22:45:32 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-04 22:45:41 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-04 22:46:44 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-04 22:46:49 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/users', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-04 18:31:33 --> set_time_limit() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'set_time_limit(...', '/home/vol11_3/e...', 74, Array)
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Controllers/Admin/Ajax/Import.php(74): set_time_limit(0)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(830): App\Controllers\Admin\Ajax\Import->index()
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ajax\Import))
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-04 22:00:45 --> set_time_limit() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'set_time_limit(...', '/home/vol11_3/e...', 74, Array)
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Controllers/Admin/Ajax/Import.php(74): set_time_limit(0)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(830): App\Controllers\Admin\Ajax\Import->index()
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Ajax\Import))
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

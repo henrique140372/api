@@ -1,0 +1,11 @@
+CRITICAL - 2022-12-12 17:08:44 --> 60 : SSL: no alternative certificate subject name matches target host name 'license.vipembed.com'
+#0 /home/vol11_3/epizy.com/epiz_32913441/htdocs/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL: no alterna...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/htdocs/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/vol11_3/epizy.com/epiz_32913441/htdocs/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/vol11_3/epizy.com/epiz_32913441/htdocs/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/htdocs/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/vol11_3/epizy.com/epiz_32913441/htdocs/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/vol11_3/epizy.com/epiz_32913441/htdocs/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/vol11_3/epizy.com/epiz_32913441/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol11_3/epizy.com/epiz_32913441/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

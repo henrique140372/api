@@ -1,0 +1,40 @@
+CRITICAL - 2023-02-07 03:47:37 --> syntax error, unexpected '<', expecting end of file
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/vol11_3/e...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(795): class_exists('\\App\\Controller...', true)
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-07 03:48:41 --> syntax error, unexpected ':', expecting ')'
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/vol11_3/e...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(795): class_exists('\\App\\Controller...', true)
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-07 03:51:48 --> syntax error, unexpected ':', expecting ')'
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/vol11_3/e...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(795): class_exists('\\App\\Controller...', true)
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-07 04:02:42 --> syntax error, unexpected 'if' (T_IF)
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/vol11_3/e...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(795): class_exists('\\App\\Controller...', true)
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

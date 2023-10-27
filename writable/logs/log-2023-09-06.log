@@ -1,0 +1,393 @@
+CRITICAL - 2023-09-06 01:44:38 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Embed.php(245): App\Controllers\Download->view('TT6273839262')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Embed->movie()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-06 06:11:21 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1110-quebrando-...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-06 20:04:33 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 11:34:37 --> Invalid file: themes/pirate/user/Dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 11:35:46 --> Invalid file: themes/pirate/user/Dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 11:36:03 --> Invalid file: themes/pirate/user/Dashboard.dashboard
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 20:06:08 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 11:36:11 --> Invalid file: themes/pirate/user/Dashboard.dashboard
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 11:36:35 --> Invalid file: themes/pirate/user/Dashboard/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 11:37:12 --> Invalid file: themes/pirate/admin/user/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/a...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/a...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/a...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 11:37:57 --> Invalid file: themes/pirate/user/Dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 11:38:04 --> Invalid file: themes/pirate/user/Dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 20:11:21 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 20:11:29 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 20:16:04 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 12:36:42 --> 6 : Could not resolve host: license.vipembed.com
+#0 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resol...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-06 22:10:02 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 22:11:02 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 13:55:39 --> Argument 1 passed to App\Models\Translations\GenreTranslationsModel::findByGenreId() must be of the type int, null given, called in /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php on line 76
+#0 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(76): App\Models\Translations\GenreTranslationsModel->findByGenreId(NULL, 'pt-BR')
+#1 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(1456): App\Models\GenreModel->translateLanguage(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(628): CodeIgniter\BaseModel->trigger('afterFind', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(212): CodeIgniter\BaseModel->first()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(241): App\Models\GenreModel->getGenreByName('Science Fiction')
+#5 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(105): App\Libraries\QuickInserter->getGenresIds(Array)
+#6 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(46): App\Libraries\QuickInserter->saveMovie()
+#7 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(107): App\Libraries\QuickInserter->save()
+#8 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(71): App\Libraries\BulkImport->importMovies()
+#9 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(210): App\Libraries\BulkImport->run()
+#10 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(47): App\Controllers\User\Ajax->importItem('tt1825683')
+#11 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Ajax->get_movie()
+#12 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Ajax))
+#13 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-09-06 13:58:12 --> Argument 1 passed to App\Models\Translations\GenreTranslationsModel::findByGenreId() must be of the type int, null given, called in /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php on line 76
+#0 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(76): App\Models\Translations\GenreTranslationsModel->findByGenreId(NULL, 'pt-BR')
+#1 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(1456): App\Models\GenreModel->translateLanguage(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(628): CodeIgniter\BaseModel->trigger('afterFind', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(212): CodeIgniter\BaseModel->first()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(241): App\Models\GenreModel->getGenreByName('Science Fiction')
+#5 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(105): App\Libraries\QuickInserter->getGenresIds(Array)
+#6 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(46): App\Libraries\QuickInserter->saveMovie()
+#7 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(107): App\Libraries\QuickInserter->save()
+#8 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(71): App\Libraries\BulkImport->importMovies()
+#9 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(210): App\Libraries\BulkImport->run()
+#10 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(47): App\Controllers\User\Ajax->importItem('tt2250912')
+#11 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Ajax->get_movie()
+#12 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Ajax))
+#13 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-09-06 22:30:51 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 14:01:20 --> Invalid file: admin/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(48): view('admin/dashboard', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 14:03:20 --> Invalid file: https://aoseugosto.eu.org/admin/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('https://aoseugo...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('https://aoseugo...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(49): view('https://aoseugo...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 14:03:25 --> Invalid file: https://aoseugosto.eu.org/admin/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('https://aoseugo...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('https://aoseugo...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(49): view('https://aoseugo...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 14:03:30 --> Invalid file: https://aoseugosto.eu.org/admin/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('https://aoseugo...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('https://aoseugo...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(49): view('https://aoseugo...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 14:04:40 --> 6 : Could not resolve host: license.vipembed.com
+#0 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resol...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-06 14:04:42 --> 6 : Could not resolve host: license.vipembed.com
+#0 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resol...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-06 14:09:30 --> 6 : Could not resolve host: license.vipembed.com
+#0 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resol...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-06 14:17:25 --> Invalid file: admin/settings/Dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/settings/...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(48): view('admin/settings/...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 22:51:54 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 14:21:56 --> Invalid file: themes/pirate/user/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 22:55:35 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 22:57:58 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-09-06 14:28:29 --> Invalid file: /.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(226): CodeIgniter\View\View->render('/', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(48): view('admin/settings/...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-06 14:28:57 --> Invalid file: admin/.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/.php')
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(226): CodeIgniter\View\View->render('admin/', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(48): view('admin/settings/...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-06 14:31:31 --> Invalid file: admin/settings/license.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/settings/...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(48): view('admin/settings/...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-09-06 14:32:27 --> 6 : Could not resolve host: license.vipembed.com
+#0 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resol...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/nobrefli/aoseugosto.eu.org/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-06 17:01:10 --> Argument 1 passed to App\Models\Translations\GenreTranslationsModel::findByGenreId() must be of the type int, null given, called in /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php on line 76
+#0 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(76): App\Models\Translations\GenreTranslationsModel->findByGenreId(NULL, 'pt-BR')
+#1 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(1456): App\Models\GenreModel->translateLanguage(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(628): CodeIgniter\BaseModel->trigger('afterFind', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(212): CodeIgniter\BaseModel->first()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(241): App\Models\GenreModel->getGenreByName('Science Fiction')
+#5 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(105): App\Libraries\QuickInserter->getGenresIds(Array)
+#6 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(46): App\Libraries\QuickInserter->saveMovie()
+#7 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(107): App\Libraries\QuickInserter->save()
+#8 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(71): App\Libraries\BulkImport->importMovies()
+#9 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(210): App\Libraries\BulkImport->run()
+#10 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(47): App\Controllers\User\Ajax->importItem('tt6320628')
+#11 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Ajax->get_movie()
+#12 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Ajax))
+#13 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-09-06 20:16:02 --> Argument 1 passed to App\Models\Translations\GenreTranslationsModel::findByGenreId() must be of the type int, null given, called in /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php on line 76
+#0 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(76): App\Models\Translations\GenreTranslationsModel->findByGenreId(NULL, 'pt-BR')
+#1 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(1456): App\Models\GenreModel->translateLanguage(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(628): CodeIgniter\BaseModel->trigger('afterFind', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(212): CodeIgniter\BaseModel->first()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(241): App\Models\GenreModel->getGenreByName('Science Fiction')
+#5 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(105): App\Libraries\QuickInserter->getGenresIds(Array)
+#6 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(46): App\Libraries\QuickInserter->saveMovie()
+#7 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(107): App\Libraries\QuickInserter->save()
+#8 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(71): App\Libraries\BulkImport->importMovies()
+#9 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(210): App\Libraries\BulkImport->run()
+#10 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(47): App\Controllers\User\Ajax->importItem('tt10872600')
+#11 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Ajax->get_movie()
+#12 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Ajax))
+#13 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-09-06 20:18:10 --> Argument 1 passed to App\Models\Translations\GenreTranslationsModel::findByGenreId() must be of the type int, null given, called in /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php on line 76
+#0 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(76): App\Models\Translations\GenreTranslationsModel->findByGenreId(NULL, 'pt-BR')
+#1 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(1456): App\Models\GenreModel->translateLanguage(Array)
+#2 /home/nobrefli/aoseugosto.eu.org/system/BaseModel.php(628): CodeIgniter\BaseModel->trigger('afterFind', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Models/GenreModel.php(212): CodeIgniter\BaseModel->first()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(241): App\Models\GenreModel->getGenreByName('Science Fiction')
+#5 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(105): App\Libraries\QuickInserter->getGenresIds(Array)
+#6 /home/nobrefli/aoseugosto.eu.org/app/Libraries/QuickInserter.php(46): App\Libraries\QuickInserter->saveMovie()
+#7 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(107): App\Libraries\QuickInserter->save()
+#8 /home/nobrefli/aoseugosto.eu.org/app/Libraries/BulkImport.php(71): App\Libraries\BulkImport->importMovies()
+#9 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(210): App\Libraries\BulkImport->run()
+#10 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Ajax.php(47): App\Controllers\User\Ajax->importItem('tt9114286')
+#11 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Ajax->get_movie()
+#12 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Ajax))
+#13 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#15 {main}

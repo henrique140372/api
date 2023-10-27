@@ -1,0 +1,2 @@
+[29-Apr-2023 14:35:36 America/Recife] PHP Warning:  require(/home/megadri2/aoseugosto.eu.org/public/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/megadri2/aoseugosto.eu.org/public/index.php on line 27
+[29-Apr-2023 14:35:36 America/Recife] PHP Fatal error:  require(): Failed opening required '/home/megadri2/aoseugosto.eu.org/public/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/megadri2/aoseugosto.eu.org/public/index.php on line 27

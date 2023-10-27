@@ -1,0 +1,30 @@
+ERROR - 2023-08-05 17:23:54 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-08-05 17:23:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/nobrefli/aoseugosto.eu.org/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/nobrefli/aoseugosto.eu.org/app/Config/Settings.php(17): CodeIgniter\Database\BaseConnection->query()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#3 /home/nobrefli/aoseugosto.eu.org/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Helpers/config_helper.php(8): config()
+#5 /home/nobrefli/aoseugosto.eu.org/app/Helpers/config_helper.php(65): get_config()
+#6 /home/nobrefli/aoseugosto.eu.org/app/Config/Routes.php(115): embed_slug()
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(711): require('/home/nobrefli/...')
+#8 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#9 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-08-05 17:24:00 --> Error connecting to the database: No such file or directory
+CRITICAL - 2023-08-05 17:24:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/nobrefli/aoseugosto.eu.org/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/nobrefli/aoseugosto.eu.org/app/Config/Settings.php(17): CodeIgniter\Database\BaseConnection->query()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Config/Factories.php(110): App\Config\Settings->__construct()
+#3 /home/nobrefli/aoseugosto.eu.org/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#4 /home/nobrefli/aoseugosto.eu.org/app/Helpers/config_helper.php(8): config()
+#5 /home/nobrefli/aoseugosto.eu.org/app/Helpers/config_helper.php(65): get_config()
+#6 /home/nobrefli/aoseugosto.eu.org/app/Config/Routes.php(115): embed_slug()
+#7 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(711): require('/home/nobrefli/...')
+#8 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#9 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

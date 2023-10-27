@@ -1,0 +1,71 @@
+CRITICAL - 2023-02-05 21:56:00 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-05 21:56:13 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-05 21:57:05 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-05 22:04:58 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-05 22:05:01 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-05 22:05:50 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-05 22:05:55 --> no access
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/settings/...', 'before')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-05 13:38:28 --> 35 : error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('35', 'error:14094438:...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-05 13:38:30 --> 35 : error:14094438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error
+#0 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/HTTP/CURLRequest.php(656): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('35', 'error:14094438:...')
+#1 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/HTTP/CURLRequest.php(364): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/HTTP/CURLRequest.php(140): CodeIgniter\HTTP\CURLRequest->send('get', 'https://license...')
+#3 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/HTTP/CURLRequest.php(170): CodeIgniter\HTTP\CURLRequest->request('get', 'https://license...', Array)
+#4 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/app/Controllers/Admin/Settings/License.php(74): CodeIgniter\HTTP\CURLRequest->get('https://license...')
+#5 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->check()
+#6 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#7 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol11_3/epizy.com/epiz_32913441/megadrive.rf.gd/htdocs/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2023-05-11 00:42:45 --> Call to a member function getViewLink() on null
+#0 /home/megadri2/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/megadri2/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/megadri2/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/megadri2/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('934433')
+#5 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/megadri2/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/megadri2/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

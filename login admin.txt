@@ -1,0 +1,9 @@
+AVISO PARA ACESSAR PAINEL ADMIN 
+
+EXEMPLO; https://meu dominio.com/admin_login
+
+LOGIN:admin@admin.com
+senha:admin123
+
+
+troque pela sua preferencia obrigado

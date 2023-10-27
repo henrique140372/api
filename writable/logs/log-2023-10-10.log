@@ -1,0 +1,47 @@
+CRITICAL - 2023-10-10 04:00:11 --> Call to a member function getViewLink() on null
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(210): include()
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/d...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Download.php(125): view('themes/pirate/d...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Download->view('1442-lego-disne...')
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-10 16:50:56 --> Invalid file: themes/pirate/user/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-10 16:51:17 --> Invalid file: themes/pirate/user/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-10 17:17:13 --> Invalid file: themes/pirate/user/dashboard.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/pirate/u...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('themes/pirate/u...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/app/Controllers/User/Dashboard.php(46): view('themes/pirate/u...', Array)
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\User\Dashboard->index()
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Dashboard))
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-10 19:57:03 --> Invalid file: ../admin/__layout/default.php
+#0 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../admin/__layo...')
+#1 /home/nobrefli/aoseugosto.eu.org/system/View/View.php(226): CodeIgniter\View\View->render('../admin/__layo...', Array, true)
+#2 /home/nobrefli/aoseugosto.eu.org/system/Common.php(1128): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#3 /home/nobrefli/aoseugosto.eu.org/app/Controllers/Admin/Settings/License.php(48): view('admin/settings/...', Array)
+#4 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(830): App\Controllers\Admin\Settings\License->index()
+#5 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Settings\License))
+#6 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

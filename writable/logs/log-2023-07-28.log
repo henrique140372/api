@@ -1,0 +1,21 @@
+CRITICAL - 2023-07-28 19:19:45 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/movies/de...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-28 19:20:19 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/movies/de...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-07-28 21:31:57 --> no access
+#0 /home/nobrefli/aoseugosto.eu.org/app/Filters/AdminAccessPermission.php(51): App\Exceptions\AuthException::noAccess()
+#1 /home/nobrefli/aoseugosto.eu.org/system/Filters/Filters.php(174): App\Filters\AdminAccessPermission->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('admin/movies/de...', 'before')
+#3 /home/nobrefli/aoseugosto.eu.org/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nobrefli/aoseugosto.eu.org/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
